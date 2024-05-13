@@ -55,7 +55,7 @@ let createProduct = () => {
         </div>
         <div class="product-part2">
             <h4>${data.Model}</h4>
-            <h4 class="price">${data.Price}</h4>
+            <h4 class="price">Price:${data.Price}</h4>
             <div class="checkout">
                 <button><a href=""><h3>Buy Now</h3></a></button>
                 <button><a href=""><h3>Add to Cart</h3></a></button>
